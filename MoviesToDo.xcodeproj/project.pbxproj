@@ -12,6 +12,9 @@
 		CBB99ACB21E4B7C4000AFC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB99AC921E4B7C4000AFC3F /* Main.storyboard */; };
 		CBB99ACD21E4B7C9000AFC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB99ACC21E4B7C9000AFC3F /* Assets.xcassets */; };
 		CBB99AD021E4B7C9000AFC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB99ACE21E4B7C9000AFC3F /* LaunchScreen.storyboard */; };
+		CBB99AD821E4BD83000AFC3F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB99AD721E4BD83000AFC3F /* CustomTableViewCell.swift */; };
+		CBB99ADA21E4C245000AFC3F /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB99AD921E4C245000AFC3F /* Movie.swift */; };
+		CBB99ADC21E4DDD9000AFC3F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB99ADB21E4DDD9000AFC3F /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CBB99ACC21E4B7C9000AFC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBB99ACF21E4B7C9000AFC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBB99AD121E4B7C9000AFC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB99AD721E4BD83000AFC3F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		CBB99AD921E4C245000AFC3F /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CBB99ADB21E4DDD9000AFC3F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				CBB99ACC21E4B7C9000AFC3F /* Assets.xcassets */,
 				CBB99ACE21E4B7C9000AFC3F /* LaunchScreen.storyboard */,
 				CBB99AD121E4B7C9000AFC3F /* Info.plist */,
+				CBB99AD721E4BD83000AFC3F /* CustomTableViewCell.swift */,
+				CBB99AD921E4C245000AFC3F /* Movie.swift */,
+				CBB99ADB21E4DDD9000AFC3F /* SearchViewController.swift */,
 			);
 			path = MoviesToDo;
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB99ADC21E4DDD9000AFC3F /* SearchViewController.swift in Sources */,
+				CBB99AD821E4BD83000AFC3F /* CustomTableViewCell.swift in Sources */,
 				CBB99AC821E4B7C4000AFC3F /* ViewController.swift in Sources */,
+				CBB99ADA21E4C245000AFC3F /* Movie.swift in Sources */,
 				CBB99AC621E4B7C4000AFC3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
