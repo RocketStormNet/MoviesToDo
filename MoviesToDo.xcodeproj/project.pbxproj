@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9074A17621E703F1004D2CAC /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074A17521E703F1004D2CAC /* HTTPHandler.swift */; };
+		9074A17821E7070C004D2CAC /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074A17721E7070C004D2CAC /* JSONParser.swift */; };
+		9074A17A21E708A9004D2CAC /* MovieDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074A17921E708A9004D2CAC /* MovieDataProcessor.swift */; };
 		CBB99AC621E4B7C4000AFC3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB99AC521E4B7C4000AFC3F /* AppDelegate.swift */; };
 		CBB99AC821E4B7C4000AFC3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB99AC721E4B7C4000AFC3F /* ViewController.swift */; };
 		CBB99ACB21E4B7C4000AFC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB99AC921E4B7C4000AFC3F /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9074A17521E703F1004D2CAC /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		9074A17721E7070C004D2CAC /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		9074A17921E708A9004D2CAC /* MovieDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataProcessor.swift; sourceTree = "<group>"; };
 		CBB99AC221E4B7C4000AFC3F /* MoviesToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB99AC521E4B7C4000AFC3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBB99AC721E4B7C4000AFC3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				CBB99AD721E4BD83000AFC3F /* CustomTableViewCell.swift */,
 				CBB99AD921E4C245000AFC3F /* Movie.swift */,
 				CBB99ADB21E4DDD9000AFC3F /* SearchViewController.swift */,
+				9074A17521E703F1004D2CAC /* HTTPHandler.swift */,
+				9074A17721E7070C004D2CAC /* JSONParser.swift */,
+				9074A17921E708A9004D2CAC /* MovieDataProcessor.swift */,
 			);
 			path = MoviesToDo;
 			sourceTree = "<group>";
@@ -146,8 +155,11 @@
 			files = (
 				CBB99ADC21E4DDD9000AFC3F /* SearchViewController.swift in Sources */,
 				CBB99AD821E4BD83000AFC3F /* CustomTableViewCell.swift in Sources */,
+				9074A17821E7070C004D2CAC /* JSONParser.swift in Sources */,
 				CBB99AC821E4B7C4000AFC3F /* ViewController.swift in Sources */,
 				CBB99ADA21E4C245000AFC3F /* Movie.swift in Sources */,
+				9074A17A21E708A9004D2CAC /* MovieDataProcessor.swift in Sources */,
+				9074A17621E703F1004D2CAC /* HTTPHandler.swift in Sources */,
 				CBB99AC621E4B7C4000AFC3F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
