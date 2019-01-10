@@ -13,6 +13,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet weak var mainTableView: UITableView!
     var favoriteMovies: [Movie] = []
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "searchMoviesSegue" {
+            let controller = segue.destination as! SearchViewController
+            controller.delegate = self
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return favoriteMovies.count
     }
